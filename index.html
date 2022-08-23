@@ -13,6 +13,7 @@
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
 
 </head>
+
 <body>
   <header>
 
@@ -30,7 +31,7 @@
 
           <!-- Offcanvas menu for mobile and tablets -->
 
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
             
             <div class="offcanvas-header">
               <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -83,7 +84,7 @@
                 <!-- Desktop login button -->
 
                 <div class="d-none d-lg-flex align-content-center justify-content-end py-1 gap-4">
-                  <a class="nav-link align-self-center login px-2 py-1" type="button">Login</a>
+                  <a class="nav-link align-self-center login px-2 py-1" href="#" type="button">Login</a>
                   <button class="btn btn-outline-secondary d-inline-block px-3 py-2" type="button">Register</button>
                 </div>
 
@@ -99,10 +100,10 @@
 
 <!-- Mobile hero section -->
 
-  <section class="hero">
+  <main class="hero">
     <img alt="Hero image mobile" class="d-block d-lg-none img-fluid mx-auto" src="./images/image-hero-mobile.png">
 
-    <div class="container d-flex d-lg-none flex-column justify-content-center">
+    <section class="container d-flex d-lg-none flex-column justify-content-center">
 
       <h1 class="text-center lh-base fw-bold mt-4 mb-0">Make remote work</h1>
 
@@ -111,9 +112,9 @@
 
       <button class="btn btn-lg btn-dark align-self-center px-3 py-2 mt-2 mb-5">Learn more</button>
 
-    </div>
+    </section>
 
-    <div class="container d-flex d-lg-none flex-row justify-content-between align-items-center gap-3 px-md-5 mb-5 me-auto">
+    <section class="container d-flex d-lg-none flex-row justify-content-between align-items-center gap-3 px-md-5 mb-5 me-auto">
 
           <div class="align-self-center">
             <img class="logo img-fluid" src="./images/client-databiz.svg" alt="logo Databiz">
@@ -128,11 +129,11 @@
             <img class="img-fluid" src="./images/client-maker.svg" alt="logo Maker">
           </div>
 
-    </div>
+        </section>
 
     <!-- Desktop hero section -->
 
-    <article class="container d-lg-flex flex-row justify-content-between my-5">
+    <section class="container d-lg-flex flex-row justify-content-between my-5">
 
       <div class="d-none d-lg-flex flex-column align-self-stretch justify-content-end text-start ms-5 me-4 pt-5 flex-grow-1 gap-4">
 
@@ -172,9 +173,9 @@
       </div>
 
 
-    </article>
+    </section>
 
-  </section>
+  </main>
   
   <!-- Footer -->
   <footer class="attribution">
