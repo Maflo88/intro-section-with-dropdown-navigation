@@ -41,7 +41,7 @@ p{
     font-weight: 500;
 }
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 1200px){
     p{
         font-size: var(--font-size-base); 
     }
@@ -64,7 +64,7 @@ p{
     border-radius: .75rem;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
     .btn{
         font-size: .8125rem;
         font-weight: 500;
@@ -145,7 +145,7 @@ p{
     font-weight: 500;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
     .offcanvas-body{
         font-size: .8125rem;
         font-weight: 500;
@@ -287,12 +287,42 @@ p{
     background-position: center;
 }
 
+.hero{
+    padding: 0rem;
+    width: 100%;
+}
 
-.hero .btn{
-    font-weight: 700;
+.hero > section{
+    width: 100vw;
+}
+
+@media screen and (min-width: 768px) {
+    .hero > section{
+        width: 100%;
+    }
+}
+
+section .container__img{
+    padding: 0rem!important;
+    margin: 0rem!important;
+}
+
+section .container__text{
+    text-align: center;
 }
 
 @media screen and (min-width: 992px) {
+    section .container__text{
+    text-align: left;
+    }
+}
+
+.hero .btn{
+    font-weight: 700;
+    
+}
+
+@media screen and (min-width: 1200px) {
     .hero .btn{
         font-size: var(--font-size-base);
     }
